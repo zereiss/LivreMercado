@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livre Mercado</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script defer src="script-login.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="vendas.html">
+                    <i class="fa-solid fa-shop">
+                        Livre Mercado
+                    </i>
+                </a>
+
+
+
+            </div>
+
+            <!-- Menu de navegação -->
+            <nav class="navegador">
+                <a href="vendas.html">Home</a>
+                <a href="cadastro.html">Cadastro</a>
+                <a href="login.html">Login</a>
+
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="login-box">
+            <h3>Login</h3>
+            <form action="#" method="POST">
+                <input type="text" class="input-field" placeholder="login" id="login">
+                <input type="password" class="input-field" placeholder="Senha" id="senha">
+                <button type="submit" onclick="logar(); return false" class="botaologin"> <a href="vendas.html">Entrar</a></button>
+                
+                <br>
+                <br>
+            </form>
+            <p class="signup-link">Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+        </div>
+    </div>
+
+
+</body>
+</html>

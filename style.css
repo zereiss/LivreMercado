@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-box, .signup-box, .sales-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-field:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.signup-link, .login-link {
+    text-align: center;
+    font-size: 14px;
+}
+
+.signup-link a, .login-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signup-link a:hover, .login-link a:hover {
+    text-decoration: underline;
+}
+
+.sales-box {
+    width: 90%;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 200px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-price {
+    color: #007BFF;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.buy-button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+.header-container {
+    width: 100%;
+    background-color: yellow;
+    padding: 15px;
+    display: flex;
+}
+.logo {
+    width: 50%;
+
+}
+.logo a{
+    color: black;
+}
+.navegador {
+    width: 50%;
+    text-align: right;
+
+    
+}
+.navegador a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   gap: 20px;
+    
+    
+}
+.botaocomprar{
+    background-color: yellow;
+    color: black;
+
+}
+.product-price{
+    color: black;
+}
+.botaodecadastro{
+    color: black;
+    background-color: yellow;
+}
+.botaologin{
+    background-color: yellow;
+    color: black;
+}
+.login-link a{
+    color: black;
+}
+.signup-link a{
+    color: black;
+}
+.botaologin a:hover{
+    opacity: 0.5;
+}
+
+
